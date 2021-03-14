@@ -1,0 +1,29 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.main{
+    background: rgb(99,9,121);
+    background: linear-gradient(90deg, rgba(99,9,121,1) 0%, rgba(226,0,255,1) 62%, rgba(255,0,155,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: rgb(202, 8, 202);
+}
+
+
+
+.item {
+   background-color: rgb(196, 196, 196);
+    max-width: 490px;
+    max-height: 265px;
+    width: calc(50% - 10px);
+    height: calc(95vw / 2 / 16 * 9);
+    margin: 5px;
+    padding: 5px;
+}
